@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Práctica Formulario</title>
+</head>
+<body>
+<h1>Encuesta de satisfacción.</h1>
+<Form method="post" action="miservidor.php">
+<div>
+<label for="Código Postal">Código Postal:</label>
+<input id="Código Postal" type="text">
+</div>
+<div>
+<label for="Nivel de satisfacción con el producto">Nivel de satisfacción con el producto (del 1 al 5):</label>
+<input name="Nivel de satisfacción con el producto" type="radio" value="1">1
+<input name="Nivel de satisfacción con el producto" type="radio" value="2">2
+<input name="Nivel de satisfacción con el producto" type="radio" value="3">3
+<input name="Nivel de satisfacción con el producto" type="radio" value="4">4
+<input name="Nivel de satisfacción con el producto" type="radio" value="5">5
+</div>
+<div>
+<label for="Email del usuario">Email del usuario</label>
+<input id="Email del usuario" type="text">
+</div>
+<div>
+<label for="Puntos positivos del producto">Puntos positivos del producto</label>
+<textarea id="Puntos positivos del producto"> </textarea>
+</div>
+<div>
+<label for="Puntos negativos del producto">Puntos negativos del producto</label>
+<textarea id="Puntos negativos del producto"> </textarea>
+</div>
+<div>
+<label for="Envío del producto">El envío del producto fue:</label>
+<select id="Envío del producto">
+
+<option value="Excelente">Excelente</option>
+<option value="Bueno">Bueno</option>
+<option value="Regular">Regular</option>
+<option value="Pésimo">Pésimo</option>
+</select>
+</div>
+<div>
+<label for="Descripción del producto">La descripción del producto fue:</label>
+<input name="Descripción del producto" type="radio" value="Excelente">Excelente
+<input name="Descripción del producto" type="radio" value="Buena">Buena
+<input name="Descripción del producto" type="radio" value="Regular">Regular
+<input name="Descripción del producto" type="radio" value="Pésima">Pésima
+</div>
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
+
